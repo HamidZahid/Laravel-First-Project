@@ -51,7 +51,7 @@
                 <li><a href="{{ url('payment') }}"><span class="icon-pie-chart mr-3"></span> Add Supplier</a></li>
                 <li><a href="{{ url('purchase-order') }}"><span class="icon-pie-chart mr-3"></span> Add Warehouse</a></li>
                 <li><a href="{{ url('supplier-list') }}"><span class="icon-pie-chart mr-3"></span> Assets</a></li>
-                <li><a href="{{ url('vendor-list') }}"><span class="icon-pie-chart mr-3"></span>Credit Customers</a></li>
+                <li><a href="{{ url('vendor-list') }}"><span class="icon-pie-chart mr-3"></span> Credit Customers</a></li>
                 <li><a href="{{ url('groups') }}"><span class="icon-users mr-3"></span> Customers List</a></li>
                 <li><a href="{{ url('deadstock') }}"><span class="icon-users mr-3"></span> Dead Stock List</a></li>
                 <li><a href="{{ url('Edittransaction') }}"><span class="icon-users mr-3"></span> Edit Transaction</a></li>
