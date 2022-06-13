@@ -7,54 +7,47 @@
                 <div class="row justify-content-center">
                     <div class="col-12 --margin-top">
                         <div class="container-fluid">
-                            <div class="h4 fw-bold">Add Supplier</div>
-                            <!-- breadcrumb   -->
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item text-decoration-none" id="" data-id=""><a href="#"
-                                            style="text-decoration: none;">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page" id="" data-id="">Add Supplier</li>
-                                </ol>
-                            </nav>
                             <div class="card">
+                                <div class="h5 p-3 pb-0">Payments</div>
+                                <hr class="text-muted">
                                 <div class="card-body">
-                                    <div class="h6 fw-bold" id="" data-id="">Add Supplier</div>
-                                    <p class="opacity-50" id="" data-id="">use this form to add supplier to database
-                                    </p>
-                                    <form action="" method="post">
-                                        <div class="row">
-                                            <div class="col-2 ">
-                                                <label for="category" class="col-form-label ">Suppliers <span
-                                                        class="text-danger">*</span></label>
-                                                <br>
-                                                <label for="category" class="col-form-label ">Contact Person <span
-                                                        class="text-danger">*</span></label>
-                                                <br>
-                                                <label for="category" class="col-form-label my-2">Email <span
-                                                        class="text-danger">*</span></label>
-                                                <br>
-                                                <label for="category" class="col-form-label my-2">Phone <span
-                                                        class="text-danger">*</span></label>
-                                                <br>
-                                                <label for="category" class="col-form-label ">Address <span
-                                                        class="text-danger">*</span></label>
-
-                                            </div>
-                                            <div class="col-md-10">
-                                                <input type="text" id="category" class="form-control my-2 "
-                                                    aria-describedby="passwordHelpInline" data-id="" placeholder="Suppliers" />
-                                                <input type="text" id="category" class="form-control my-2 "
-                                                    aria-describedby="passwordHelpInline" data-id="" placeholder="Contact Person" />
-                                                <input type="text" id="category" class="form-control my-2 "
-                                                    aria-describedby="passwordHelpInline" data-id="" placeholder="Email" />
-                                                <input type="text" id="category" class="form-control my-2 "
-                                                    aria-describedby="passwordHelpInline" data-id="" placeholder="Phone" />
-                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                                                    placeholder="Address"></textarea>
-                                                <button type="submit" class="btn btn-primary rounded-0 my-3">Add Supplier</button>
-                                            </div>
-                                        </div>
-                                    </form>
+                                    <div class="container-fluid overflow-auto">
+                                        <table id="example" class="display" style="width:100%">
+                                            <thead>
+                                                <tr>
+                                                    <th id="" data-id="">Invoice#</th>
+                                                    <th id="" data-id="">Date</th>
+                                                    <th id="" data-id="">Account</th>
+                                                    <th id="" data-id="">Amount</th>
+                                                    <th id="" data-id="">Transaction ID</th>
+                                                    <th id="" data-id="">Cr.</th>
+                                                    <th id="" data-id="">Manage</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td id="" data-id="">1</td>
+                                                    <td id="" data-id="">2019-09-23</td>
+                                                    <td id="" data-id="">Cash</td>
+                                                    <td class="fw-bold " id="" data-id="">144.00</td>
+                                                    <td class="fw-bold" id="" data-id="">Invoice 1 Payment</td>
+                                                    <td class="fw-bold" id="" data-id="">144.00</td>
+                                                    <td id="" data-id="">Manage</td>
+                                                </tr>
+                                                <tr>
+                                                    <td id="" data-id="">3</td>
+                                                    <td id="" data-id="">2019-09-23</td>
+                                                    <td id="" data-id="">JP Morgan Chase & Co</td>
+                                                    <td class="fw-bold" id="" data-id="">149.00</td>
+                                                    <td class="fw-bold" id="" data-id="">Invoice 3 Payment</td>
+                                                    <td class="fw-bold" id="" data-id="">149.00</td>
+                                                    <td id="" data-id="">Manage</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                            </tfoot>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -58,62 +58,20 @@ Route::get('/groups', function () {
 Route::get('/unpaidinvoice', function () {
     return view('unpaidinvoice');
 });
-Route::get('/unpaidenpenseinvoice', function () {
-    return view('unpaidenpenseinvoice');
+Route::get('/unpaidexpenseinvoice', function () {
+    return view('unpaidexpenseinvoice');
 });
 Route::get('/unclearedtransaction', function () {
     return view('unclearedtransaction');
 });
 Route::get('/transaction', function () {
-    return view('Transaction');
-});
-Route::get('/supplierinvoice', function () {
-    return view('supplierinvoice');
+    return view('transaction');
 });
 Route::get('/salesinvoice', function () {
     return view('salesinvoice');
 });
 Route::get('/recurringinvoices', function () {
     return view('recurringinvoices');
-});
-Route::get('/quote', function () {
-    return view('quote');
-});
-Route::get('/PaidInvoice', function () {
-    return view('PaidInvoice');
-});
-Route::get('/paidexpenses', function () {
-    return view('paidexpenses');
-});
-Route::get('/paidcustomers', function () {
-    return view('paidcustomers');
-});
-Route::get('/newtransfer', function () {
-    return view('newtransfer');
-});
-Route::get('/newsalesinvoice', function () {
-    return view('newsalesinvoice');
-});
-Route::get('/newquote', function () {
-    return view('newquote');
-});
-Route::get('/manageinvoices', function () {
-    return view('manageinvoices');
-});
-Route::get('/manageexpenseinvoice', function () {
-    return view('manageexpenseinvoice');
-});
-Route::get('/managecategories', function () {
-    return view('managecategories');
-});
-Route::get('/ExpireProducts', function () {
-    return view('ExpireProducts');
-});
-Route::get('/Edittransaction', function () {
-    return view('Edittransaction');
-});
-Route::get('/deadstock', function () {
-    return view('deadstock');
 });
 
 

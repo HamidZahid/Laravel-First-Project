@@ -1,11 +1,11 @@
 @include('layout.header')
-<aside class="sidebar py-5" >
+<aside class="sidebar py-5">
     <div class="toggle">
         <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
             <span></span>
         </a>
     </div>
-    <div class="side-inner" >
+    <div class="side-inner">
         <div class="profile">
             <img src="images/person_4.jpg" alt="Image" class="img-fluid">
             <h3 class="name">Craig David</h3>
@@ -44,35 +44,21 @@
                     </div>
 
                 </li>
-                <li><a href="{{ url('bills') }}"><span class="icon-notifications mr-3"></span> Manage Accounts</a></li>
-                <li><a href="{{ url('leads') }}"><span class="icon-location-arrow mr-3"></span> Add Expenses</a></li>
-                <li><a href="{{ url('new-po') }}"><span class="icon-pie-chart mr-3"></span> Add New Account</a></li>
-                <li><a href="{{ url('payment-recieved') }}"><span class="icon-pie-chart mr-3"></span> Add Products</a></li>
-                <li><a href="{{ url('payment') }}"><span class="icon-pie-chart mr-3"></span> Add Supplier</a></li>
-                <li><a href="{{ url('purchase-order') }}"><span class="icon-pie-chart mr-3"></span> Add Warehouse</a></li>
-                <li><a href="{{ url('supplier-list') }}"><span class="icon-pie-chart mr-3"></span> Assets</a></li>
-                <li><a href="{{ url('vendor-list') }}"><span class="icon-pie-chart mr-3"></span> Credit Customers</a></li>
-                <li><a href="{{ url('groups') }}"><span class="icon-users mr-3"></span> Customers List</a></li>
-                <li><a href="{{ url('deadstock') }}"><span class="icon-users mr-3"></span> Dead Stock List</a></li>
-                <li><a href="{{ url('Edittransaction') }}"><span class="icon-users mr-3"></span> Edit Transaction</a></li>
-                <li><a href="{{ url('ExpireProducts') }}"><span class="icon-users mr-3"></span> Expire Products</a></li>
-                <li><a href="{{ url('managecategories') }}"><span class="icon-users mr-3"></span> Manage Categories</a></li>
-                <li><a href="{{ url('manageexpenseinvoice') }}"><span class="icon-users mr-3"></span> Manage Expense Invoice</a></li>
-                <li><a href="{{ url('manageinvoices') }}"><span class="icon-users mr-3"></span> Manage Invoices</a></li>
-                <li><a href="{{ url('newquote') }}"><span class="icon-users mr-3"></span> New Quote</a></li>
-                <li><a href="{{ url('newsalesinvoice') }}"><span class="icon-users mr-3"></span> New Sales Invoice</a></li>
-                <li><a href="{{ url('newtransfer') }}"><span class="icon-users mr-3"></span> New Transfer</a></li>
-                <li><a href="{{ url('paidcustomers') }}"><span class="icon-users mr-3"></span> Paid Customers</a></li>
-                <li><a href="{{ url('paidexpenses') }}"><span class="icon-users mr-3"></span> Paid Expenses Invoice</a></li>
-                <li><a href="{{ url('PaidInvoice') }}"><span class="icon-users mr-3"></span> Paid Invoice</a></li>
-                <li><a href="{{ url('quote') }}"><span class="icon-users mr-3"></span> Quote</a></li>
-                <li><a href="{{ url('recurringinvoices') }}"><span class="icon-users mr-3"></span> Recurring Invoices</a></li>
-                <li><a href="{{ url('salesinvoice') }}"><span class="icon-users mr-3"></span> Sales Invoice</a></li>
-                <li><a href="{{ url('supplierinvoice') }}"><span class="icon-users mr-3"></span> Supplier Invoice</a></li>
-                <li><a href="{{ url('transaction') }}"><span class="icon-users mr-3"></span> Transaction</a></li>
+                <li><a href="{{ url('bills') }}"><span class="icon-notifications mr-3"></span>Bills</a></li>
+                <li><a href="{{ url('leads') }}"><span class="icon-location-arrow mr-3"></span>Leads</a></li>
+                <li><a href="{{ url('new-po') }}"><span class="icon-pie-chart mr-3"></span>New PO</a></li>
+                <li><a href="{{ url('payment-recieved') }}"><span class="icon-pie-chart mr-3"></span>Payment Recieved</a></li>
+                <li><a href="{{ url('payment') }}"><span class="icon-pie-chart mr-3"></span>Payment</a></li>
+                <li><a href="{{ url('purchase-order') }}"><span class="icon-pie-chart mr-3"></span>Purchase Order</a></li>
+                <li><a href="{{ url('supplier-list') }}"><span class="icon-pie-chart mr-3"></span>Supplier List</a></li>
+                <li><a href="{{ url('vendor-list') }}"><span class="icon-pie-chart mr-3"></span>Vendor List</a></li>
+                <li><a href="{{ url('groups') }}"><span class="icon-users mr-3"></span>Groups</a></li>
+                <li><a href="{{ url('unpaidinvoice') }}"><span class="icon-users mr-3"></span> UnPaid Voice</a></li>
+                <li><a href="{{ url('unpaidexpenseinvoice') }}"><span class="icon-users mr-3"></span> UnPaid Expense Voice</a></li>
                 <li><a href="{{ url('unclearedtransaction') }}"><span class="icon-users mr-3"></span> Uncleared Transaction</a></li>
-                <li><a href="{{ url('unpaidenpenseinvoice') }}"><span class="icon-users mr-3"></span> Unpaid Expense Invoice</a></li>
-                <li><a href="{{ url('unpaidinvoice') }}"><span class="icon-users mr-3"></span> Unpaid Invoice</a></li>
+                <li><a href="{{ url('transaction') }}"><span class="icon-users mr-3"></span> Transaction</a></li>
+                <li><a href="{{ url('salesinvoice') }}"><span class="icon-users mr-3"></span> Sales Invoice</a></li>
+                <li><a href="{{ url('recurringinvoices') }}"><span class="icon-users mr-3"></span> Recurring Invoices</a></li>
                 <li><a href="#"><span class="icon-sign-out mr-3"></span>Sign out</a></li>
             </ul>
         </div>

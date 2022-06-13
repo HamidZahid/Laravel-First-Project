@@ -7,94 +7,158 @@
                 <div class="row justify-content-center">
                     <div class="col-12 --margin-top">
                         <div class="container-fluid">
-                            <div class="h4 fw-bold">Add Products</div>
-                            <!-- breadcrumb   -->
-                            <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb">
-                                    <li class="breadcrumb-item text-decoration-none" id="" data-id=""><a href="#"
-                                            style="text-decoration: none;">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page" id="" data-id="">Add Products</li>
-                                </ol>
-                            </nav>
-                            <div class="card">
-                                <div class="card-body">
-                                    <div class="h6 fw-bold" id="" data-id="">Add Products</div>
-                                    <p class="opacity-50" id="" data-id="">Use this form to upload products through CSV.please download the
-                                        sample CSV
-                                        just add product info in specific colum. (please do not rearrange the column! just add specific infi
-                                        in mentioned column).
-                                        for your ease Categories.id, warehouse-id,Supplier-id dropdown are added. please copy it from there
-                                        to csv.
-                                        <br>
-                                        For images, upload all images through that form (below the csv form).Add the image name in csv.
-                                    </p>
-                                    <form action="" method="post">
-                                        <div class="float-right mb-3">
-                                            <a href="#" style="text-decoration: none;">Download Sample CSV</a>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="card">
+                                        <div class="h5 p-3 pb-0">Add Deposit</div>
+                                        <hr class="text-muted">
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="account" class="form-label fw-bold" id=""
+                                                        data-id="">Account</label>
+                                                    <select class="form-select" aria-label="Default select example"
+                                                        id="account" data-id="">
+                                                        <option selected>Choose an account</option>
+                                                        <option value="1" id="" data-id="">One</option>
+                                                        <option value="2" id="" data-id="">Two</option>
+                                                        <option value="3" id="" data-id="">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="code" class="form-label fw-bold" id=""
+                                                        data-id="">Code</label>
+                                                    <input type="text" class="form-control" id="code" data-id=""
+                                                        placeholder="INC-00008" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="date" class="form-label fw-bold" id=""
+                                                        data-id="">Date</label>
+                                                    <input type="date" class="form-control" id="date" data-id="" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="description" class="form-label fw-bold" id=""
+                                                        data-id="">Description</label>
+                                                    <input type="text" class="form-control" id="description" data-id="" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="currency" class="form-label fw-bold" id=""
+                                                        data-id="">Currency</label>
+                                                    <input type="text" class="form-control" id="currency" data-id=""
+                                                        placeholder="USD" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="category" class="form-label fw-bold" id=""
+                                                        data-id="">Category</label>
+                                                    <select class="form-select" aria-label="Default select example"
+                                                        id="category" data-id="">
+                                                        <option selected>Choose a category</option>
+                                                        <option value="1" id="" data-id="">One</option>
+                                                        <option value="2" id="" data-id="">Two</option>
+                                                        <option value="3" id="" data-id="">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="tags" class="form-label fw-bold" id=""
+                                                        data-id="">Tags</label>
+                                                    <input type="password" class="form-control" id="tags" data-id="" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="company" class="form-label fw-bold" id=""
+                                                        data-id="">Company</label>
+                                                    <select class="form-select" aria-label="Default select example"
+                                                        id="company" data-id="">
+                                                        <option selected>None</option>
+                                                        <option value="1" id="" data-id="">One</option>
+                                                        <option value="2" id="" data-id="">Two</option>
+                                                        <option value="3" id="" data-id="">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="payer" class="form-label fw-bold" id=""
+                                                        data-id="">Payer</label>
+                                                    <select class="form-select" aria-label="Default select example"
+                                                        id="payer" data-id="">
+                                                        <option selected>Choose a category</option>
+                                                        <option value="1" id="" data-id="">One</option>
+                                                        <option value="2" id="" data-id="">Two</option>
+                                                        <option value="3" id="" data-id="">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="staff" class="form-label fw-bold" id=""
+                                                        data-id="">Staff</label>
+                                                    <input type="text" class="form-control" id="staff" data-id=""
+                                                        placeholder="None" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="method" class="form-label fw-bold" id=""
+                                                        data-id="">Method</label>
+                                                    <select class="form-select" aria-label="Default select example"
+                                                        id="method" data-id="">
+                                                        <option selected>Select payment method</option>
+                                                        <option value="1" id="" data-id="">One</option>
+                                                        <option value="2" id="" data-id="">Two</option>
+                                                        <option value="3" id="" data-id="">Three</option>
+                                                    </select>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="status" class="form-label fw-bold" id=""
+                                                        data-id="">Status</label>
+                                                    <input type="text" class="form-control" id="status" data-id="" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="code" class="form-label fw-bold" id=""
+                                                        data-id="">Code</label>
+                                                    <input type="text" class="form-control" id="code" data-id=""
+                                                        placeholder="cleared" />
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="ref" class="form-label fw-bold" id=""
+                                                        data-id="">Ref#</label>
+                                                    <input type="text" class="form-control" id="ref" data-id="" />
+                                                </div>
+                                                <button type="submit" class="btn purple text-light">Submit</button>
+                                            </form>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-2 ">
-                                                <label for="category" class="col-form-label">Products<span
-                                                        class="text-danger">*</span></label>
-                                            </div>
-                                            <div class="col-4">
-                                                <input type="file" id="category" class="form-control " aria-describedby="passwordHelpInline"
-                                                    data-id="" placeholder="Categories" />
-                                                <button type="submit" class="btn btn-primary my-4 rounded-0" id="" data-id="">Upload Product
-                                                    CSV</button>
-                                            </div>
-                                            <div class="col-2">
-                                                <label for="category" class="col-form-label ">Categories-id</label>
-                                                <br>
-                                                <label for="category" class="col-form-label my-4 ">Warehouse-id</label>
-                                            </div>
-                                            <div class="col-4">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected></option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                                <select class="form-select my-4" aria-label="Default select example">
-                                                    <option selected></option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="card">
+                                        <div class="h5 p-3 pb-0">Recent Deposit</div>
+                                        <hr class="text-muted">
+                                        <div class="card-body">
+                                            <table class="table table-striped">
+                                                <thead class="">
+                                                    <tr>
+                                                        <th scope="col" id="" data-id="">Account</th>
+                                                        <th scope="col" id="" data-id="">Description</th>
+                                                        <th scope="col" id="" data-id="">Amount</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="fw-bold" id="" data-id="">JP Morgan Chase & Co
+                                                        </td>
+                                                        <td class="fw-bold purple-text" id="" data-id="">Invoice 3 Payments
+                                                        </td>
+                                                        <td class="fw-bold" id="" data-id="">149.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="fw-bold" id="" data-id="">Cash</td>
+                                                        <td class="fw-bold purple-text" id="" data-id="">Invoice 1 Payments
+                                                        </td>
+                                                        <td class="fw-bold green-text" id="" data-id="">144.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="fw-bold" id="" data-id="">Cash</td>
+                                                        <td class="fw-bold purple-text" id="" data-id="">Interest</td>
+                                                        <td class="fw-bold" id="" data-id="">700.00</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
-                                        <div class="row">
-                                            <div class="col-2 ">
-                                                <label for="category" class="col-form-label">Images <span
-                                                        class="text-danger">*</span></label>
-                                            </div>
-                                            <div class="col-4">
-                                                <input type="file" id="category" class="form-control " aria-describedby="passwordHelpInline"
-                                                    data-id="" />
-                                                <button type="submit" class="btn btn-primary my-4 rounded-0" id="" data-id="">Upload Product
-                                                    Images</button>
-                                            </div>
-                                            <div class="col-2">
-                                                <label for="category" class="col-form-label ">Unit Code-id</label>
-                                                <br>
-                                                <label for="category" class="col-form-label my-4 ">Supplier-id</label>
-                                            </div>
-                                            <div class="col-4">
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected></option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                                <select class="form-select my-4" aria-label="Default select example">
-                                                    <option selected></option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
