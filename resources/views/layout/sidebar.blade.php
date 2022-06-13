@@ -1,11 +1,11 @@
 @include('layout.header')
-<aside class="sidebar py-5">
+<aside class="sidebar py-5" >
     <div class="toggle">
         <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
             <span></span>
         </a>
     </div>
-    <div class="side-inner">
+    <div class="side-inner" >
         <div class="profile">
             <img src="images/person_4.jpg" alt="Image" class="img-fluid">
             <h3 class="name">Craig David</h3>
