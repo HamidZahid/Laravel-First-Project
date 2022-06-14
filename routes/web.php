@@ -73,6 +73,60 @@ Route::get('/salesinvoice', function () {
 Route::get('/recurringinvoices', function () {
     return view('recurringinvoices');
 });
+Route::get('/newquote', function () {
+    return view('newquote');
+});
+Route::get('/newsalesinvoice', function () {
+    return view('newsalesinvoice');
+});
+Route::get('/newtransfer', function () {
+    return view('newtransfer');
+});
+Route::get('/paidcustomers', function () {
+    return view('paidcustomers');
+});
+Route::get('/paidexpenses', function () {
+    return view('paidexpenses');
+});
+Route::get('/PaidInvoice', function () {
+    return view('PaidInvoice');
+});
+Route::get('/managecategories', function () {
+    return view('managecategories');
+});
+Route::get('/manageexpenseinvoice', function () {
+    return view('manageexpenseinvoice');
+});
+Route::get('/manageinvoices', function () {
+    return view('manageinvoices');
+});
+Route::get('/manageaccounts', function () {
+    return view('manageaccounts');
+});
+Route::get('/deadstock', function () {
+    return view('deadstock');
+});
+Route::get('/edittransaction', function () {
+    return view('edittransaction');
+});
+Route::get('/expireproductlist', function () {
+    return view('expireproductlist');
+});
+Route::get('/addexpense', function () {
+    return view('addexpense');
+});
+Route::get('/addnewaccount', function () {
+    return view('addnewaccount');
+});
+Route::get('/addsupplier', function () {
+    return view('addsupplier');
+});
+Route::get('/addwarehouse', function () {
+    return view('addwarehouse');
+});
+Route::get('/assets', function () {
+    return view('assets');
+});
 
 
 

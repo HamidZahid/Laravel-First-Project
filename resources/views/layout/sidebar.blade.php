@@ -59,6 +59,24 @@
                 <li><a href="{{ url('transaction') }}"><span class="icon-users mr-3"></span> Transaction</a></li>
                 <li><a href="{{ url('salesinvoice') }}"><span class="icon-users mr-3"></span> Sales Invoice</a></li>
                 <li><a href="{{ url('recurringinvoices') }}"><span class="icon-users mr-3"></span> Recurring Invoices</a></li>
+                <li><a href="{{ url('newquote') }}"><span class="icon-users mr-3"></span> New Quote</a></li>
+                <li><a href="{{ url('newsalesinvoice') }}"><span class="icon-users mr-3"></span> New Sales Invoice</a></li>
+                <li><a href="{{ url('newtransfer') }}"><span class="icon-users mr-3"></span> New Transfer</a></li>
+                <li><a href="{{ url('paidcustomers') }}"><span class="icon-users mr-3"></span> Paid Customers</a></li>
+                <li><a href="{{ url('paidexpenses') }}"><span class="icon-users mr-3"></span> Paid Expenses</a></li>
+                <li><a href="{{ url('PaidInvoice') }}"><span class="icon-users mr-3"></span> Paid Invoice</a></li>
+                <li><a href="{{ url('managecategories') }}"><span class="icon-users mr-3"></span> Manage Categories</a></li>
+                <li><a href="{{ url('manageaccounts') }}"><span class="icon-users mr-3"></span> Manage Accounts</a></li>
+                <li><a href="{{ url('deadstock') }}"><span class="icon-users mr-3"></span> Dead Stock</a></li>
+                <li><a href="{{ url('edittransaction') }}"><span class="icon-users mr-3"></span> Edit Transaction</a></li>
+                <li><a href="{{ url('expireproductlist') }}"><span class="icon-users mr-3"></span> Expire Product list</a></li>
+                <li><a href="{{ url('addexpense') }}"><span class="icon-users mr-3"></span> Add Expense</a></li>
+                <li><a href="{{ url('addnewaccount') }}"><span class="icon-users mr-3"></span> Add New Account</a></li>
+                <li><a href="{{ url('addsupplier') }}"><span class="icon-users mr-3"></span> Add Supplier</a></li>
+                <li><a href="{{ url('addwarehouse') }}"><span class="icon-users mr-3"></span> Add Warehouse</a></li>
+                <li><a href="{{ url('assets') }}"><span class="icon-users mr-3"></span> Assets</a></li>
+                {{-- <li><a href="{{ url('manageexpenseinvoice') }}"><span class="icon-users mr-3"></span> Manage Expenses Invoice</a></li>
+                <li><a href="{{ url('manageinvoices') }}"><span class="icon-users mr-3"></span> Manage Invoices</a></li> --}}
                 <li><a href="#"><span class="icon-sign-out mr-3"></span>Sign out</a></li>
             </ul>
         </div>
