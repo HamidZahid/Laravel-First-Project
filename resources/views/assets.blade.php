@@ -2,7 +2,7 @@
 @section('main-section')
     @include('layout.sidebar')
     <main>
-        <div class="site-section">
+        <div class="site-section" >
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 --margin-top">

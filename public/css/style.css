@@ -42,8 +42,8 @@ h2 {
 body {
     position: relative;
     min-width: 100%;
-    /* min-height: 100vh;
-    overflow-x: hidden; */
+    /* min-height: 100vh; */
+    /* overflow-x: hidden; */
 }
 
 body:before {
@@ -212,7 +212,7 @@ aside .side-inner .nav-menu ul li a:hover {
 }
 
 aside .side-inner .nav-menu ul li a:hover {
-    background: #fcfcfc;
+    background: #8073F2;
     color: #000;
 }
 
@@ -223,7 +223,7 @@ aside .side-inner .nav-menu ul li a:hover:before {
 }
 
 aside .side-inner .nav-menu ul li.active a {
-    background: #fcfcfc;
+    background: #8073F2;
     color: #000;
 }
 
@@ -252,7 +252,7 @@ aside .side-inner .nav-menu ul li .collapsible:after {
 }
 
 aside .side-inner .nav-menu ul li .collapsible[aria-expanded="true"] {
-    background: #fcfcfc;
+    background: #8073F2;
     color: #000;
 }
 

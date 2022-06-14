@@ -42,7 +42,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="assets/images/profile.jpg" id="" width="35" class="profile_img mx-2" alt="" srcset=""></a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="{{url('images/profile.jpg')}}" id="" width="35" class="profile_img mx-2" alt="" srcset=""></a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
